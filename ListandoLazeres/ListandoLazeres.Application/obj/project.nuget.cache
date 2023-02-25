@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "rkDTzAfLN/yTWDjgqiiReQO4ry2BIEU1mEQsM0TcnRPo4QCShklVqTFfzKf5gUsBxM1rdUg77cX1FG3wwqYAlQ==",
+  "dgSpecHash": "TMGQg9xDowW2UNpkjEk5wj6xw9INn4OsughIV08Kg4ZzaD9di5gbDLIYnqhDnWu0n6FVRu5kKSjaNcVUoj35tA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dralv\\Documents\\projects\\ListandoLazer\\ListandoLazeres\\ListandoLazeres.Application\\ListandoLazeres.Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\dralv\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\dralv\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\dralv\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\dralv\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requer MediatR (>= 11.0.0 && < 12.0.0), mas a versão MediatR 12.0.1 foi resolvida.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

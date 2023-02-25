@@ -8,5 +8,7 @@ namespace ListandoLazeres.Domain.Entidades
 {
     public class Categoria:EntidadeBase
     {
+        public string Nome { get; set; }
+        public ICollection<Lazer> Lazeres { get; set; }
     }
 }
